@@ -10,3 +10,5 @@ console.log (nomeUtente)
 
 
 const risultatoEsercizio = nomeUtente + cognomeUtente + coloreUtente;
+
+document.getElementById('dati-utente').innerHTML = risultatoEsercizio + 21
